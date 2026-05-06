@@ -16,7 +16,7 @@ Problems are given below:
 
 ## Solutions
 
-Solutions are given in solutions.ts file
+Solutions are given in `solutions.ts` file
 
 ## Blog posts
 
