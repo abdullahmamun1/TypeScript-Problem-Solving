@@ -169,3 +169,7 @@ It makes system easily extendable. We can write reusable code. New types can be 
 - Improve maintainability
 - Enable Scalability
 - Reduce Bugs
+
+## Conclusion
+
+The four pillars of OOP - Abstraction, Encapsulation, inheritance and Polymorphism work together to structure large Typescript applications to reduce complexity, improves reusability and keeps code organized.

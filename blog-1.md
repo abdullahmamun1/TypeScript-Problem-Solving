@@ -38,3 +38,7 @@ const b = returnValue("hello");
 
 It replace `T` with `number` and `string` respectively. Typescript knows a is a `number` and b is a `string`. So it preseves the type safety. <br>
 Generics also works with interfaces, classes. We can also add constraints to generics.
+
+## Conclusion
+
+Generics allow us to write flexible, reusable code without losing type safety. By preserving exact types across different use cases, they eliminaate duplication and reduce bugs, helping us build clean, consistent and maintainable systems.
