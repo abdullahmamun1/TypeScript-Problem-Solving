@@ -15,7 +15,7 @@ function returnNumber(value: number): number {
 }
 ```
 
-This works but it is repititive. If we want same function for all types , we need to write same function again and again. This violates the DRY(Don't Repeat Yourself) principle.
+This works but it is repititive. If we want same function for all types , we need to write same function again and again. This violates the **DRY(Don't Repeat Yourself) principle**.
 
 ### The Solution: Generics
 
@@ -33,8 +33,8 @@ When we call them:
 
 ```Typescript
 const a = returnValue(12);
-const a = returnValue("hello");
+const b = returnValue("hello");
 ```
 
-It replace `T` with `number` and `string` respectively. Typescript knows a is a `number` and b is a `string`. So it preseves the type safety.
+It replace `T` with `number` and `string` respectively. Typescript knows a is a `number` and b is a `string`. So it preseves the type safety. <br>
 Generics also works with interfaces, classes. We can also add constraints to generics.
