@@ -93,3 +93,33 @@ class BankAccount {
 ```
 
 here `balance` is set to private, which means it can only be accessed inside the class. Users can update balance only by using methods. <br>It prevents accidental data corruption. It makes debugging easier.
+
+## Inheritance
+
+Inheritance is the mechanism that allows child class to acquire the properties and methods of parent class.<br>
+
+### For Example:
+
+```Typescript
+class Animal {
+  move() {
+    console.log("Moving!");
+  }
+}
+
+class Dog extends Animal {
+  bark() {
+    console.log("Woof!");
+  }
+}
+
+class Bird extends Animal {
+  fly() {
+    console.log("Flying!");
+  }
+}
+```
+
+here `Dog` and `Bird` are child classes of `Animal` parent class. `Dog` and `Bird` both classes contain the move() method as they inherited that method from the parent class.
+<br>
+It eliminates duplicated code. It created logical relationships between classes. Child classes can use method overriding to have specific version of a method that aleady exists in the parent class. It follows **DRY Principle.**
