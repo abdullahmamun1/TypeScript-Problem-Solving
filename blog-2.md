@@ -126,7 +126,7 @@ It eliminates duplicated code. It created logical relationships between classes.
 
 ## Polymorphism
 
-Polymorphism allows different classes to implement the same method in different ways<br>
+Polymorphism allows different classes to implement the same method in different ways.<br>
 
 ### For Example:
 
@@ -157,9 +157,10 @@ function renderShape(shape: Shape) {
   shape.draw();
 }
 renderShape(new Circle()); // output: "Drawing Circle"
-renderShape(new Square());// output: "Drawing Square"
+renderShape(new Square()); // output: "Drawing Square"
 ```
 
+Child classes overriden the existing draw() method in parent class and have their own specific version. <br>
 It makes system easily extendable. We can write reusable code. New types can be added without changing existing logic.
 
 ### In real-world applications, these principles help developers to:
