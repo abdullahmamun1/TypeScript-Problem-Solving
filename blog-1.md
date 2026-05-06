@@ -1,5 +1,3 @@
-# How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
-
 # How Generics Enable Reusable and Strictly Typed Code in Typescript
 
 Balancing reusability with type safety is one of the biggest challenges for developers. As a developer, we have to write flexible code in many situations, also we want Typescript to strictly enforce types so that there is no bugs in our code. Generics solve both problems.
