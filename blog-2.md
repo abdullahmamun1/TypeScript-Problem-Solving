@@ -122,4 +122,49 @@ class Bird extends Animal {
 
 here `Dog` and `Bird` are child classes of `Animal` parent class. `Dog` and `Bird` both classes contain the move() method as they inherited that method from the parent class.
 <br>
-It eliminates duplicated code. It created logical relationships between classes. Child classes can use method overriding to have specific version of a method that aleady exists in the parent class. It follows **DRY Principle.**
+It eliminates duplicated code. It created logical relationships between classes. It follows **DRY Principle.**
+
+## Polymorphism
+
+Polymorphism allows different classes to implement the same method in different ways<br>
+
+### For Example:
+
+```Typescript
+class Shape {
+  draw() {
+    console.log("Drawing shape");
+  }
+}
+
+class Circle extends Shape {
+  draw() {
+    console.log("Drawing circle");
+  }
+}
+
+class Square extends Shape {
+  draw() {
+    console.log("Drawing square");
+  }
+}
+```
+
+When user calls:
+
+```Typescript
+function renderShape(shape: Shape) {
+  shape.draw();
+}
+renderShape(new Circle()); // output: "Drawing Circle"
+renderShape(new Square());// output: "Drawing Square"
+```
+
+It makes system easily extendable. We can write reusable code. New types can be added without changing existing logic.
+
+### In real-world applications, these principles help developers to:
+
+- Manage Complexity
+- Improve maintainability
+- Enable Scalability
+- Reduce Bugs
