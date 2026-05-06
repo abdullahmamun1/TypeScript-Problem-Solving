@@ -1,5 +1,3 @@
-# How do the four pillars of OOP—Inheritance, Polymorphism, Abstraction, and Encapsulation—help manage logic and reduce complexity in large-scale TypeScript projects?
-
 # How the Four Pillars of OOP Reduce Complexity in Large TypeScript Projects
 
 As applications grow, managing complexity becomes one of the biggest challenges for developers. OOP makes it easier to manage complexity. OOP is **Object-Oriented Programming**. OOP is built on four fundamental principles:
@@ -8,13 +6,14 @@ As applications grow, managing complexity becomes one of the biggest challenges 
 - Encapsulation
 - Inheritance
 - Polymorphism
-  These principles help developers to organize logic, reduce duplication and make large system easier to maintain.
+  <br><br>These principles help developers to organize logic, reduce duplication and make large system easier to maintain.
 
 ## Abstraction
 
 Abstraction is the process of hiding complex implementation details and showing only the essential features of an object to the user.
-<br>
-For Example:
+<br><br>
+
+### For Example:
 
 ```Typescript
 interface MediaPlayer {
