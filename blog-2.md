@@ -12,7 +12,7 @@ As applications grow, managing complexity becomes one of the biggest challenges 
 ## Abstraction
 
 Abstraction is the process of hiding complex implementation details and showing only the essential features of an object to the user.
-<br><br>
+<br>
 
 ### For Example:
 
@@ -67,3 +67,29 @@ Output:
 It hides the implementation details from user, users don't need to understand the internal logic. It makes systems easier to use and extend.
 
 ## Encapsulation
+
+Encapsulation is about keeping data safe inside a class and controlling how it is accessed.<br>
+
+### For Example:
+
+```Typescript
+class BankAccount {
+    private balance: number = 0;
+
+    deposit(amount:number){
+        if(amount > 0){
+            this.balance += amount;
+        }
+    }
+    withdraw(amount:number){
+        if(amount <= this.balance){
+            this.balance -= amount;
+        }
+    }
+    getBalance(){
+        return this.balance;
+    }
+}
+```
+
+here `balance` is set to private, which means it can only be accessed inside the class. Users can update balance only by using methods. <br>It prevents accidental data corruption. It makes debugging easier.
