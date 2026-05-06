@@ -4,7 +4,7 @@ Balancing reusability with type safety is one of the biggest challenges for deve
 
 ### The Problem: Reusuability vs Type Safety
 
-Imagin we are writing a simple function that return the value passed into it
+Imagine we are writing a simple function that return the value passed into it:
 
 ```Typescript
 function returnString(value: string): string {
