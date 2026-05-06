@@ -6,7 +6,8 @@ As applications grow, managing complexity becomes one of the biggest challenges 
 - Encapsulation
 - Inheritance
 - Polymorphism
-  <br><br>These principles help developers to organize logic, reduce duplication and make large system easier to maintain.
+
+<br><br>These principles help developers to organize logic, reduce duplication and make large system easier to maintain.
 
 ## Abstraction
 
