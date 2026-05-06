@@ -8,7 +8,7 @@ Balancing reusability with type safety is one of the biggest challenges for deve
 
 Imagin we are writing a simple function that return the value passed into it
 
-```
+```Typescript
 function returnString(value: string): string {
     return value;
 }
@@ -23,7 +23,7 @@ This works but it is repititive. If we want same function for all types , we nee
 
 Generics allow us to write one function which can work with any type, still preserving type safety.
 
-```
+```Typescript
 function returnValue<T>(value: T): T {
     return value;
 }
@@ -33,7 +33,7 @@ Here, `T` is a type parameter- like a placeholder for actual type. We can pass a
 
 When we call them:
 
-```
+```Typescript
 const a = returnValue(12);
 const a = returnValue("hello");
 ```
